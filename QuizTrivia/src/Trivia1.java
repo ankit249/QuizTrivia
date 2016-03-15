@@ -34,13 +34,6 @@ public class Trivia1 {
 		t1.start();
 		t2.start();
 
-		/*
-		try{
-			t1.join();
-			t2.join();
-		}catch(InterruptedException ie){}
-		*/
-
 		System.out.println(a.count);
 	}
 }
