@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Write a ThreadSafe ArrayList
+// Its possible that the client is more read centric with occasional writes
 public class ThreadSafeArrayList<T> {
 
 	private final List<T> list = new ArrayList<T>();
