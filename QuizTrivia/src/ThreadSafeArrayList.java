@@ -18,11 +18,12 @@ public class ThreadSafeArrayList<T> {
 	}
 
 	public static void main(String[] args) {
-		ThreadSafeArrayList<String> threadSafeArrayList = new ThreadSafeArrayList<>();
+		ThreadSafeArrayList<String> threadSafeArrayList = new ThreadSafeArrayList<String>();
 		threadSafeArrayList.set("1");
 		threadSafeArrayList.set("2");
 		threadSafeArrayList.set("3");
 
-		System.out.println("Printing the First Element : " + threadSafeArrayList.get(1));
+		System.out.println("Printing the First Element : " + threadSafeArrayList.get(0));
 	}
+
 }
